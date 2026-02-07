@@ -2,6 +2,10 @@
 
 一款轻量级桌面工具管理应用，帮助你集中管理和快速启动各种本地工具与服务。
 
+<img width="1919" height="1200" alt="toolshub_main" src="https://github.com/user-attachments/assets/5ccd5e81-9f61-4f93-9212-507e064ecfe5" />
+
+
+
 ## 功能特点
 
 - **工具管理** — 添加、编辑、删除本地工具/服务，支持自定义启动命令和工作目录
