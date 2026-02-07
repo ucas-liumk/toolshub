@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Plus, LayoutGrid, X, Tag } from 'lucide-react'
 import { useToolStore } from '../stores/tool-store'
 import { ConfirmDialog } from './ConfirmDialog'
+import iconPng from '../../../../resources/icon.png'
 
 export function Sidebar() {
   const { selectedCategory, setSelectedCategory, tools, categories, addCategory, removeCategory } =
@@ -52,7 +53,7 @@ export function Sidebar() {
       <aside className="w-[220px] bg-slate-100 border-r border-slate-200 flex flex-col h-full">
         <div className="p-4 border-b border-slate-200 drag-region">
           <h1 className="text-[17px] font-bold text-indigo-600 flex items-center gap-2">
-            <img src="/icon.png" alt="应用管家" className="w-7 h-7" />
+            <img src={iconPng} alt="应用管家" className="w-7 h-7" />
             应用管家
           </h1>
         </div>

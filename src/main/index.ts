@@ -12,7 +12,9 @@ function createWindow(): void {
     minWidth: 900,
     minHeight: 600,
     title: '应用管家',
-    icon: resolve(__dirname, '../../resources/icon.png'),
+    icon: app.isPackaged
+      ? join(process.resourcesPath, 'resources/icon.ico')
+      : resolve(__dirname, '../../resources/icon.ico'),
     titleBarStyle: 'hidden',
     titleBarOverlay: {
       color: '#f8fafc',
